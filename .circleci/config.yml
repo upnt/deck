@@ -2,16 +2,19 @@
 version: 2.1
 
 executors:
-    alpine_executor:
-        working_directory: ~/app
-        environment:
-            DIST_DIR: public
-        docker:
-            - image: alpine/latest
+  alpine_executor:
+    working_directory: ~/app
+    environment:
+      DIST_DIR: public
+    docker:
+      - image: alpine/latest
+        auth: 
+          username: upnt
+          password: $DOCKERHUB_PASSWORD
 
 jobs:
-    build:
-        executor: alpine_executor
-        steps:
-            - checkout
-            - run: apk add cmake
+  build:
+    executor: alpine_executor
+    steps:
+      - checkout
+      - run: apk add cmake
