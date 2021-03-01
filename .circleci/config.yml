@@ -20,3 +20,5 @@ jobs:
       - run: apk add cmake make g++
       - run: cmake .
       - run: cmake --build .
+      - run: ls
+      - run: ./Debug/deck
