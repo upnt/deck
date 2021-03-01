@@ -17,6 +17,6 @@ jobs:
     executor: alpine_executor
     steps:
       - checkout
-      - run: apk add cmake
+      - run: apk add cmake make g++
       - run: cmake .
       - run: cmake --build .
