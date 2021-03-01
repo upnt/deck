@@ -7,7 +7,7 @@ executors:
     environment:
       DIST_DIR: public
     docker:
-      - image: alpine/latest
+      - image: alpine
         auth: 
           username: upnt
           password: $DOCKERHUB_PASSWORD
