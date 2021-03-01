@@ -1,2 +1,2 @@
 # deck
-![upnt](https://circleci.com/gh/upnt/deck.svg?style=/appveyor/build/:user/:repo)
+![upnt](https://circleci.com/gh/upnt/deck.svg?style=svg)
