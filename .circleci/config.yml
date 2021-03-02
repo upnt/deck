@@ -18,6 +18,6 @@ jobs:
     steps:
       - checkout
       - run: apk add cmake make g++
-      - run: cmake .
-      - run: cmake --build .
-      - run: ctest
+      - run: cmake -G "Unix Makefiles" .
+      - run: make
+      - run: make test
