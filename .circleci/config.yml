@@ -17,7 +17,7 @@ jobs:
     executor: alpine_executor
     steps:
       - checkout
-      - run: apk add cmake make g++
+      - run: apk add cmake make g++ git
       - run: git submodule init
       - run: git submodule update
       - run: cmake -G "Unix Makefiles" .
