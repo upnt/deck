@@ -4,12 +4,12 @@
 
 using std::string;
 
-TEST(FactorialTest, Storaged) {
+TEST(CardTest, Storaged) {
     Card card("name");
     EXPECT_EQ("name", card.get_name());
 }
 
-TEST(FactorialTest, NoName) {
+TEST(CardTest, NoName) {
     Card card1;
     Card card2("");
     EXPECT_EQ("", card1.get_name());

@@ -5,15 +5,15 @@
 
 using std::string;
 
-TEST(FactorialTest, Storaged) {
+TEST(DeckTest, Storaged) {
     Deck deck;
     deck.add(Card("name"));
     deck.add(Card("test name"));
-    EXPECT_EQ("name", deck.draw().get_name());
     EXPECT_EQ("test name", deck.draw().get_name());
+    EXPECT_EQ("name", deck.draw().get_name());
 }
 
-TEST(FactorialTest, Empty) {
+TEST(DeckTest, Empty) {
     Deck deck;
     EXPECT_EQ(true, deck.empty());
     deck.add(Card("name"));

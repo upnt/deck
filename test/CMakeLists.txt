@@ -16,4 +16,5 @@ target_link_libraries(DeckTest Deck Card gtest_main)
 include_directories(${PROJECT_SOURCE_DIR}/src)
 
 include(GoogleTest)
-gtest_add_tests(TARGET CardTest DeckTest)
+gtest_add_tests(TARGET CardTest)
+gtest_add_tests(TARGET DeckTest)
