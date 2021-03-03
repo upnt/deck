@@ -13,7 +13,7 @@ executors:
           password: $DOCKERHUB_PASSWORD
 
 jobs:
-  build:
+  build_and_test:
     executor: alpine_executor
     steps:
       - checkout
@@ -22,11 +22,6 @@ jobs:
       - run: git submodule update
       - run: cmake -G "Unix Makefiles" .
       - run: make
-  test:
-    executor: alpine_executor
-    steps:
-      - checkout
-      - run: ls
       - run: make test
 
 workflows:
@@ -34,5 +29,3 @@ workflows:
   build_and_test:
     jobs:
       - build
-      - test
-    
