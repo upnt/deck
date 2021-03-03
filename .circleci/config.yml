@@ -18,10 +18,8 @@ jobs:
     steps:
       - checkout
       - run: apk add cmake make g++ git
-      - run: git submodule init
-      - run: git submodule update
-      - run: cmake -G "Unix Makefiles" .
-      - run: make
+      - run: git submodule init | git submodule update
+      - run: cmake -G "Unix Makefiles" . | make
       - run: make test
 
 workflows:
