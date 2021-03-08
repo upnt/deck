@@ -1,18 +1,35 @@
 #include <iostream>
 #include "deck.h"
+#include "card.h"
 #include "deck_db.h"
 #include "card_db.h"
 #include "database.h"
 
+using std::cin;
 using std::cout;
 using std::endl;
 
-
 template<typename T>
 int input_index(Database<T>& db) {
-    db.print();
+    int index = 0;
+    string text;
 
-    return 0;
+    db.print();
+    cout << endl;
+    cout << "ender \"end\" if you want to end" << endl;
+
+    do {
+        cout << "index: ";
+        cin >> text;
+        if(text == "end") break;
+        try {
+            index = std::stoi(text);
+        } catch(std::exception e) {
+            index = db.size();
+        }
+    } while(index >= db.size());
+
+    return index;
 }
 
 void print_top(Deck deck) {
