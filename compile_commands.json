@@ -1,0 +1,67 @@
+[
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/src",
+  "command": "C:/Strawberry/c/bin/c++.exe   -std=gnu++17 -o CMakeFiles/Card.dir/card.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/src/card.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/src/card.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/src",
+  "command": "C:/Strawberry/c/bin/c++.exe   -std=gnu++17 -o CMakeFiles/CardDB.dir/card_db.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/src/card_db.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/src/card_db.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/src",
+  "command": "C:/Strawberry/c/bin/c++.exe   -std=gnu++17 -o CMakeFiles/DeckDB.dir/deck_db.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/src/deck_db.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/src/deck_db.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/src",
+  "command": "C:/Strawberry/c/bin/c++.exe   -std=gnu++17 -o CMakeFiles/Deck.dir/deck.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/src/deck.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/src/deck.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/src",
+  "command": "C:/Strawberry/c/bin/c++.exe   -std=gnu++17 -o CMakeFiles/deck.dir/main.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/src/main.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/src/main.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/test",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/CardTest.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/CardTest.dir/card_test.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/test/card_test.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/test/card_test.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/test",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/CardDBTest.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/CardDBTest.dir/card_db_test.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/test/card_db_test.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/test/card_db_test.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/test",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/DeckTest.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/DeckTest.dir/deck_test.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/test/deck_test.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/test/deck_test.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/test",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/DeckDBTest.dir/includes_CXX.rsp -std=gnu++17 -o CMakeFiles/DeckDBTest.dir/deck_db_test.cpp.obj -c C:/Users/shun-/workspace/cpp/deck/test/deck_db_test.cpp",
+  "file": "C:/Users/shun-/workspace/cpp/deck/test/deck_db_test.cpp"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/googletest-build/googlemock",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/gmock.dir/includes_CXX.rsp -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock.dir/src/gmock-all.cc.obj -c C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googlemock/src/gmock-all.cc",
+  "file": "C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/googletest-build/googlemock",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj -c C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googlemock/src/gmock_main.cc",
+  "file": "C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/googletest-build/googletest",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/gtest.dir/includes_CXX.rsp -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest.dir/src/gtest-all.cc.obj -c C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googletest/src/gtest-all.cc",
+  "file": "C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "C:/Users/shun-/workspace/cpp/deck/build/googletest-build/googletest",
+  "command": "C:/Strawberry/c/bin/c++.exe  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -Wall -Wshadow -Werror -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj -c C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googletest/src/gtest_main.cc",
+  "file": "C:/Users/shun-/workspace/cpp/deck/build/googletest-src/googletest/src/gtest_main.cc"
+}
+]
